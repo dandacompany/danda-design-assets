@@ -1,0 +1,104 @@
+:root {
+	--primary-color: #5b180d;
+	--secondary-color: #e8e8e8;
+	--accent-color: #f0a202;
+	--middle-color: #8c5e58;
+	--neutral-color: #b0b0b0;
+	--primary-text-color: #333;
+	--secondary-text-color: var(--secondary-color);
+	--hightlight-background: #d12420;
+
+	--fs0: 100px;
+	--fs1: 96px;
+	--fs1-2: 70px;
+	--fs2: 60px;
+	--fs4: 42px;
+	--fs5: 28px;
+	--fs6: 24px;
+	--fs7: 18px;
+	--fs8: 14px;
+}
+
+@media (max-width: 768px) {
+	:root {
+		--fs0: 80px;
+		--fs1: 48px;
+		--fs1-2: 40px;
+		--fs2: 30px;
+		--fs4: 25px;
+		--fs5: 22px;
+		--fs6: 18px;
+		--fs7: 18px;
+		--fs8: 14px;
+	}
+}
+
+@font-face {
+	font-family: "GmarketSans";
+	font-weight: 300;
+	font-style: normal;
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot");
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2")
+			format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff")
+			format("woff"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf")
+			format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "GmarketSans";
+	font-weight: 500;
+	font-style: normal;
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot");
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2")
+			format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff")
+			format("woff"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf")
+			format("truetype");
+	font-display: swap;
+}
+@font-face {
+	font-family: "GmarketSans";
+	font-weight: 700;
+	font-style: normal;
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot");
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2")
+			format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff")
+			format("woff"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf")
+			format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SEBANG_Gothic_Bold";
+	src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	font-weight: 400;
+	font-style: normal;
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot");
+	src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff2")
+			format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff")
+			format("woff"),
+		url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.ttf")
+			format("truetype");
+	font-display: swap;
+}
